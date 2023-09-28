@@ -10,6 +10,19 @@ nav a {
 }
 h1 {
     color: steelblue;
+    
+}
+main{
+    max-width: 840px;
+}
+aside{
+    width:auto ;
+    margin: 10 rem;
+    border: 1px;
+    padding: 1rem;
+    background-color: aqua;
+    color: rgb(70, 57, 44);
+    text-align: center;
 }
 aside img {
     width: 200px;
@@ -21,25 +34,8 @@ aside img {
 main img{
     width: 150px;
     height: auto;
-    
-
 }
-main{
-    max-width: 840px;
-}
-p{
-    padding: 0;
-}
-aside{
-    width:auto ;
-    margin: 10 rem;
-    border: 1px;
-    padding: 1rem;
-    background-color: aqua;
-    color: rgb(70, 57, 44);
-    text-align: center;
-
-}
+p {padding: 0;}
 footer{
     margin-top: 1 em;
     border-top: 1px ;
