@@ -17,7 +17,7 @@ main{
 }
 aside{
     width:auto ;
-    margin: 1;
+    margin: auto;
     border: 1px;
     padding: 1rem;
     background-color: aqua;
@@ -37,7 +37,7 @@ main img{
 }
 p {padding: 0;}
 footer{
-    margin-top: 1;
+    margin-top: auto;
     border-top: 1px solid #002;
     text-align: center;
 }
