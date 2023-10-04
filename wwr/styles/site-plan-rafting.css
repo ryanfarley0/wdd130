@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster+Two:ital@1&display=swap');
+
+:root {
+--primary-color:#CAD2C5;
+--secondary-color:#84A98C;
+--accent1-color:#354F52;
+--accent2-color:#52796F;
+--heading-font: "kaushan Script",cursive;
+--paragraph-default-font:"Lobster Two",display;
+--navigation-background-color:var(--primary-color);
+--navigation-link-color:var(--accent1-color);
+--navigation-hover-link-color:var(--accent1-color);
+--navigation-hover-background-color:
+}
+body{
+    font: var(--paragraph-default-font);
+    max-width: 960;
+    padding: 20;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited{
+    color:var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color:var(--navigation-hover-background-color);
+}
+
+
+
+
+
+
