@@ -18,10 +18,9 @@
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    /* Added "px" unit for max-width and padding values */
+
     padding: 20px;
-    /* Added "px" unit for padding values */
-}
+ }
 
 h1,
 h2,
