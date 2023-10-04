@@ -1,55 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster+Two:ital@1&display=swap');
 
 :root {
---primary-color:#CAD2C5;
---secondary-color:#84A98C;
---accent1-color:#354F52;
---accent2-color:#52796F;
+    --primary-color: #CAD2C5;
+    --secondary-color: #84A98C;
+    --accent1-color: #354F52;
+    --accent2-color: #52796F;
 
---heading-font: "kaushan Script",cursive;
---paragraph-font:"Lobster Two",cursive;
+    --heading-font: 'Kaushan Script', cursive;
+    --paragraph-font: 'Lobster Two', cursive;
 
---nav-background-color:var(--primary-color);
---nav-link-color: var(--accent1-color);
---nav-hover-link-color: var(--accent2-color);
---nav-hover-background-color:var(--secondary-color);
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--accent1-color);
+    --nav-hover-link-color: var(--accent2-color);
+    --nav-hover-background-color: var(--secondary-color);
 }
-body{
-    font: var(--paragraph-font);
-    max-width: 960;
-    padding: 20;
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    /* Added "px" unit for max-width and padding values */
+    padding: 20px;
+    /* Added "px" unit for padding values */
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-header{
+
+header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
-p{
+
+p {
     padding: 25px;
 }
-nav{
+
+nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
-nav a{
+
+nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-nav a:link, nav a:visited{
-    color:var(--nav-link-color);
+
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
 }
+
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color:var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
 }
-
-
 
 
 
