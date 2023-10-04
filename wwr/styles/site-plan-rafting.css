@@ -7,10 +7,10 @@
 --accent2-color:#52796F;
 --heading-font: "kaushan Script",cursive;
 --paragraph-default-font:"Lobster Two",display;
---navigation-background-color:var(--primary-color);
---navigation-link-color:var(--accent1-color);
---navigation-hover-link-color:var(--accent1-color);
---navigation-hover-background-color:
+--navigation-background-color:#CAD2C5;
+--navigation-link-color:#354F52;
+--navigation-hover-link-color:#52796F;
+--navigation-hover-background-color:#84A98C;
 }
 body{
     font: var(--paragraph-default-font);
