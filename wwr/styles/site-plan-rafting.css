@@ -9,10 +9,10 @@
 --heading-font: "kaushan Script",cursive;
 --paragraph-default-font:"Lobster Two",cursive;
 
---navigation-background-color:var(--primary-color);
---navigation-link-color: var(--accent1-color);
---navigation-hover-link-color: var(--accent2-color);
---navigation-hover-background-color:var(--secondary-color);
+--nav-background-color:var(--primary-color);
+--nav-link-color: var(--accent1-color);
+--nav-hover-link-color: var(--accent2-color);
+--nav-hover-background-color:var(--secondary-color);
 }
 body{
     font: var(--paragraph-default-font);
@@ -31,7 +31,7 @@ p{
     padding: 25px;
 }
 nav{
-    background-color: var(--navigation-background-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
@@ -46,7 +46,7 @@ nav a:link, nav a:visited{
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color:var(--navigation-hover-background-color);
+    background-color:var(--nav-hover-background-color);
 }
 
 
