@@ -14,7 +14,9 @@
     --nav-hover-link-color: var(--accent2-color);
     --nav-hover-background-color: var(--secondary-color);
 }
-h1,h2{
+
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -33,48 +35,30 @@ nav {
     font-size: 1.2rem;
     display: flex;
 }
-header img{
+
+header img {
     width: 100px;
 }
-main img{
+
+header nav {
+    float: right;
+    margin: 25px;
+}
+
+main img {
     width: 300px;
 }
-footer img{
+
+footer img {
     width: 80px;
     padding: 10px;
-    float: center;
+    float: right;
 }
-nav a {
+
+.hero img {
     display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-nav a:link,
-nav a:visited {
-    color: var(--nav-link-color);
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
-
-header {
-    padding: 20px;
-    background-color: var(--accent1-color);
-}
-
-p {
-    padding: 25px;
-}
-
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
+    width: 100%;
+    height: auto;
 }
 
 nav a {
@@ -82,11 +66,6 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
-}
-
-nav a:link,
-nav a:visited {
-    color: var(--nav-link-color);
 }
 
 nav a:hover {
