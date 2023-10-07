@@ -55,19 +55,43 @@ footer img {
     float: right;
 }
 
+.hero div {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* To place it on top of the image */
+}
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.hero article img {
+    float: right;
+    margin-left: 10px;
+}
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
