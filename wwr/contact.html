@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact  | BlueWave Rafting Tours</title>
+    <title>Contact | BlueWave Rafting Tours</title>
     <meta name="description" content="">
     <meta name="author" content="Ryan Farley">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -31,45 +31,44 @@
                     corrupti nemo similique.</p>
             </article>
         </div>
-        <h1> Send us a message</h1>
-        <p> Phone number: 000-000-000-0000</p>
-        <p> Email: mailto</p>
+        <h1>Send us a message</h1>
+        <p>Phone number: 000-000-000-0000</p>
+        <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
         <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d262612.6276251324!2d-54.383286021570235!3d-2.333884277305804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1698068813032!5m2!1ses!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d262612.6276251324!2d-54.383286021570235!3d-2.333884277305804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1698068813032!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
-
         <form action="contact_submit.php" method="post">
             <label for="name">Your Name:</label>
             <input type="text" id="name" name="name" required>
-        
+
             <label for="email">Your Email Address:</label>
             <input type="email" id="email" name="email" required>
-        
-            <label>Purpose of the Message:</label>
-            <input type="radio" id="generalInquiry" name="messagePurpose" value="General Inquiry" required>
-            <label for="generalInquiry">General Inquiry</label>
-        
-            <input type="radio" id="reservationQuestion" name="messagePurpose" value="Reservation Question" required>
-            <label for="reservationQuestion">Reservation Question</label>
-        
-            <input type="radio" id="websiteSuggestion" name="messagePurpose" value="Website Suggestion" required>
-            <label for="websiteSuggestion">Website Suggestion</label>
-        
+
+            <fieldset>
+                <legend>Purpose of the Message:</legend>
+                <input type="radio" id="generalInquiry" name="messagePurpose" value="General Inquiry" required>
+                <label for="generalInquiry">General Inquiry</label>
+
+                <input type="radio" id="reservationQuestion" name="messagePurpose" value="Reservation Question"
+                    required>
+                <label for="reservationQuestion">Reservation Question</label>
+
+                <input type="radio" id="websiteSuggestion" name="messagePurpose" value="Website Suggestion" required>
+                <label for="websiteSuggestion">Website Suggestion</label>
+            </fieldset>
+
             <label for="message">Your Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
-        
+
             <input type="checkbox" id="subscribeNewsletter" name="subscribeNewsletter" value="yes">
             <label for="subscribeNewsletter">Please subscribe me to the monthly newsletter</label>
-        
+
             <button type="submit">Send Message</button>
         </form>
-
-
-    </main> 
+    </main>
     <footer>
         <p>&copy; 2023 BlueWave Rafting Tours, Inc. | Created by Ryan Farley</p>
         <nav class="sociallinks">
